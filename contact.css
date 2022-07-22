@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(117, 125, 134);
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.content-container{
+    width: 70%;
+    margin: 40px auto;
+}
+
+.content-container h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 40px;
+}
+
+.content-container p{
+    font-size: 25px;
+    line-height: 140%;
+}
+
+.fyi{
+    padding: 2px 8px;
+    background-color: black;
+    color: white;
+}
+
+.content-container .form-label{
+    font-size: 35px;
+}
+
+.reserve-form{
+    margin: 0;
+}
+
+.reserve-form input::placeholder{
+    font-weight: 100;
+}
+
+.reserve-form input{
+    width: 100%;
+    font-weight: 700;
+    padding: 15px 10px;
+    font-size: 25px;
+    margin: 10px 0px;
+    border: 1px solid #ddd;
+}
+
+.reserve-form button{
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+}
+
+.reserve-form button:hover{
+    background-color: #bbb;
+}

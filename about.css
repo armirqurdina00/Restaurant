@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(158, 103, 95);
+}
+
+header h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 40px;
+    text-transform: uppercase;
+}
+
+.about-container{
+    font-size: 24px;
+    text-align: justify;
+    width: 70%;
+    margin: 40px auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rest-img{
+    width: 100%;
+}
+
+.chef-img{
+    border-radius: 50%;
+}
+
+.opening-hours-title{
+    font-size: 35px;
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+.opening-hours{
+    display: flex;
+}
+
+.opening-hours-section{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.opening-hours-section li{
+    padding-top: 30px;
+}

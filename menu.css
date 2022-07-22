@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Amatic SC';
+    src: url(font/AmaticSC-Regular.ttf);
+}
+
+*{
+    font-family: 'Amatic SC';
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.ulist{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ulist li{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #ccc;
+    user-select: none;
+}
+
+.ulist a{
+    text-decoration: none;
+}
+
+.ulist li:hover{
+    color: white;
+}
+
+#active{
+    color: white;
+    font-weight: 700;
+}
+
+.menu-container{
+    width: max-content;
+    margin: 40px auto;
+    font-size: 0;
+}
+
+.menu-container h1{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.menu-pages div{
+    display: inline-block;
+    width: 250px;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu-pages div:hover{
+    background-color: #222;
+}
+
+.menu-pages{
+    border: 1px solid gray;
+}
+
+#active-menu-page{
+    background-color: rgb(241, 67, 67);
+}
+
+.pizza-container, .salads-container, .starter-container{
+    background-color: white;
+    width: 100%;
+}
+
+.salads-container, .starter-container{
+    display: none;
+}
+
+.pizza-page, .salads-page, .starter-page{
+    cursor: pointer;
+}
+
+.break-line{
+    width: 95%;
+    box-sizing: border-box;
+    border-top: #ddd;
+}
+
+.food-title{
+    color: black;
+    font-size: 30px;
+    padding: 20px 10px;
+    font-weight: 700;
+}
+
+.food-price, .hot, .new{
+    padding: 0px 5px;
+    font-weight: 100;
+    color: white;
+    background-color: gray;
+    float: right;
+    border-radius: 3px;
+}
+
+.hot{
+    float: none;
+    background-color: rgb(224, 51, 28);
+}
+
+.new{
+    float: none;
+    
+}
+
+.food-ingred{
+    padding: 10px 10px 20px 10px;
+    color: #888;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .menu-container{
+        width: 90%;
+    }
+    .menu-pages div{
+        width: 100%;
+        box-sizing: border-box;
+    }
+  }
